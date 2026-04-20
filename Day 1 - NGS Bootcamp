@@ -1,0 +1,23 @@
+##Introduction
+On Day 1 of the NGS bootcamp, I learned the basic concepts of Next Generation Sequencing (NGS) and practiced Basic Linux commands in an Ubuntu (WSL) environment.
+
+##Linux Commands Learned
+- 'pwd' → Displays the current working directory
+- 'ls' → Lists files and directories
+- 'cd' → Changes directory
+- 'mkdir' → Creates a new directory
+- 'touch' → Creates a new file
+- 'echo' → Writes text into a file
+- 'cat' → Displays file content
+- 'nano' → Opens a file in a text editor
+
+##Practical Work
+Created a folder named NGS
+Created a subfolder data inside NGS
+Created a text file using touch
+Added content using echo
+Viewed file content using cat
+Edited file using nano
+
+##Conclusion
+This session helped me build a strong foundation in  Linux basics and file handling, which are essential for working with NGS data and bioinformatics tools.
