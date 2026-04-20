@@ -1,0 +1,32 @@
+##Introduction
+On Day 2, I worked with real sequencing data and performed quality control analysis using FastQC. I also practiced Linux commands for file handling and software installation.
+
+##Tools Used
+FastQC (for quality control of FASTQ files)
+Ubuntu (WSL environment)
+
+##Commands Practiced
+- 'cd' → Navigate between directories
+- 'ls' → List files in a directory
+- 'head' → View first few lines of a file
+- 'sudo apt update' → Update package list
+- 'sudo apt install fastqc' → Install FastQC
+
+##Practical Work
+Navigated to the FASTQ file directory
+Viewed sequence data using head command
+Installed FastQC tool
+Ran FastQC on the FASTQ file
+Generated quality report
+
+##Output Observed
+FASTQ file contains nucleotide sequences and quality scores
+FastQC report includes:
+Per base sequence quality
+GC content
+Sequence length distribution
+Adapter content
+Observed that some parameters passed while others showed warnings/fail (as seen in report summary)
+
+##Conclusion
+This session helped me understand how to handle sequencing data and perform quality control analysis using FastQC, which is an important step in NGS data analysis.
