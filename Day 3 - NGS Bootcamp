@@ -1,0 +1,34 @@
+##Introduction
+On Day3, I focused on interpreting the FastQC report generated from the FASTQ file. The session helped me understand how to evaluate sequencing data quality using different graphs and summary metrics.
+
+##Tool Used
+FastQC (quality control tool for sequencing data)
+
+##FastQC Report Interpretation
+The FastQC report contains multiple modules, each representing a quality parameter:
+- Basic Statistics
+Provides general information such as file name, total sequences, sequence length, and GC content.
+- Per Base Sequence Quality
+Shows quality scores across all bases. High-quality scores (green region) indicate good sequencing quality.
+- Per Sequence Quality Scores
+Displays overall quality distribution of reads.
+- Per Base Sequence Content
+Shows proportion of A, T, G, C across positions. Ideally, lines should be balanced.
+- Per Sequence GC Content
+Indicates GC distribution. Deviations may suggest contamination.
+- Sequence Length Distribution
+Shows variation in read lengths.
+- Sequence Duplication Levels
+Identifies duplicate sequences, which may indicate PCR bias.
+- Overrepresented Sequences
+Highlights sequences that appear frequently (possible contamination or adapters).
+- Adapter Content
+Detects presence of adapter sequences.
+
+##Observations
+Some modules showed pass (green) indicating good quality
+Some showed warning (orange) or fail (red) indicating potential issues
+Quality was generally good, but certain parameters may require preprocessing (like trimming)
+
+##Conclusion
+This session helped me understand how to interpret FastQC graphs and identify quality issues in sequencing data. This step is important before further analysis like alignment or assembly.
